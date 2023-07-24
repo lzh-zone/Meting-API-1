@@ -68,8 +68,8 @@ export const request = async (method, url, data = {}, options) => {
         options.cookie = {
             ...options.cookie,
             __remember_me: true,
-            NMTID: nanoid(),
-            _ntes_nuid: nanoid(),
+            NMTID: 00OrjNRi7vgv18B4kuiscoSF55ydJUAAAF__dRBxQ,
+            _ntes_nuid: b848c47ef25c25439e97f4ffa92ecdce,
         }
         if (!options.cookie.MUSIC_U) {
             // 游客
