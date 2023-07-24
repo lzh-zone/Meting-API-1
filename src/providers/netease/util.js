@@ -67,6 +67,7 @@ export const request = async (method, url, data = {}, options) => {
     if (typeof options.cookie === 'object') {
         options.cookie = {
             ...options.cookie,
+            sDeviceId: YD-KnPY6JT6YR1FAkVVQVOAeYosk+rQ4UGf,
             __remember_me: true,
             NMTID: nanoid(),
             _ntes_nuid: nanoid(),
